@@ -46,7 +46,22 @@ print( b ,c ,d)
 g = b + c # adding/concatetion 2 strings
 print(g)
 print(c[5]) # slicing the string
+print(len(c))
 print(f"To print from 0 to 3 of {c}", c[0:3])
 print(f"To print from 2 to 4 of {c}", c[2:4])
 print(f"To print from 3 to 4 of {c}", c[3:4])
+print(c[:4]) # same as c[0:4] --> Anis
+print(c[1:]) # same as c[1:last index] --> nish's
+d= c + "is now ready to excel"
+print(d[0::3]) #To read the entire line and show every 3rd index
+# for nm in range(len(c)):
+#     print(c[nm])
+
+#Program to reverse of word
+# revName = input("Enter the word : ")
+# for nameCount in range(len(revName)):
+#  ab = nameCount
+#  i = int(ab)
+# dc = revName[i:]
+# print(ab)
 
