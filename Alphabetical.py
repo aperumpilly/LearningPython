@@ -1,7 +1,9 @@
+#used random module to add with Alphabet
+import random
 def alphabetical(words):
-	print(words)
-	return ','.join(sorted(words.split(',')))
-
+	number1 =  random.random()
+	print(words + " " + str(number1)  )
+	return ','.join(sorted(words.split(',')))	
 alphabetical("Anish")
 	
 
