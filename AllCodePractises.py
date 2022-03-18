@@ -1,3 +1,4 @@
+import datetime
 from operator import truediv
 from xmlrpc.client import boolean
 a = 'Anish'
@@ -32,11 +33,11 @@ print(f"The remainder when {b} is divided by {c} is:", b%c)
 print(b>c)
 
 #Input 2 number and average it
-f= input("Enter number 1: " )
-g = input ("Enter number 2 : ")
-print((int(f)+int(g))/2)
-# Print the square of t F entered before
-print (f"The square of {f} is :", int(f) * int(f))
+# f= input("Enter number 1: " )
+# g = input ("Enter number 2 : ")
+# print((int(f)+int(g))/2)
+# # Print the square of t F entered before
+# print (f"The square of {f} is :", int(f) * int(f))
 
 #Printing various strings
 b= 'Anish' #--> when it is a simple string
@@ -74,5 +75,17 @@ print(story.endswith("complete"))
 print(story.count("a"))
 print(story.capitalize()) #First character to be UPPER case
 print(story.find("Python")) #find the first occurance of the word
-print(" 'REM Replace Anish with Divya' : \n",story.replace("Anish","Divya")) #Replace ALL occurance of the replacing word
+print(" 'REM Replace Anish with Divya'\t: \n",story.replace("Anish","Divya")) #Replace ALL occurance of the replacing word
 print(story[::-1]) #To print the word in reverse order
+#Prg to print letter with name and current date
+letter = '''Dear name, \nYou are selected\n
+Date : date
+'''
+name = input("Enter the name : \n")
+letter = letter.replace("name",name)
+letter = letter.replace("date",str(datetime.datetime.today()))
+print(letter)
+
+#Prg to check double space and print the index
+st = "This line has a double  spaces at line "
+print(st,st.find("  ") )
