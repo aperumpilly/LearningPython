@@ -1,5 +1,5 @@
 import datetime
-from operator import truediv
+#from operator import truediv
 from xmlrpc.client import boolean
 a = 'Anish'
 b =24
@@ -89,3 +89,30 @@ print(letter)
 #Prg to check double space and print the index
 st = "This line has a double  spaces at line "
 print(st,st.find("  ") )
+
+#Prg to format a letter
+st = "Dear " + name + ", Nice to hear from you. Keep in touch ! Thanks date"
+st = st.replace(", ", "\n\t")
+st = st.replace ("! ", "\n")
+st = st.replace("date","\n" + str(datetime.datetime.today()))
+print(st)
+
+'''
+Examples for LISTS and TUPLES
+'''
+
+a=[1,2,4,56,6]
+print(a)
+print(  a[2])
+print("The third element is " + str(a[2]))
+change_pos = input("Enter the position to be change")
+change_val = input("Enter the value to be changed")
+print(a)
+a[int(change_pos)] = int(change_val)
+print(a)
+#Slicing the List and reversing the list value
+print(a[3::1])
+print(a[3::-1])
+print(a[-3::-1])  
+'''First it will start from 3rd element from right and it will check the read order which
+is in reverse order . Thus the element from -3 to -5 will be displayed'''
