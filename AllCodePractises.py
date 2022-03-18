@@ -65,3 +65,13 @@ print(d[0::3]) #To read the entire line and show every 3rd index
 # dc = revName[i:]
 # print(ab)
 
+# String functions examples
+story = '''Anish is learning Python and 
+now it  is on a serious note to complete'''
+
+print(len(story))
+print(story.endswith("complete"))
+print(story.count("a"))
+print(story.capitalize()) #First character to be UPPER case
+print(story.find("Python")) #find the first occurance of the word
+print(story.replace("Anish","Divya")) #Replace ALL occurance of the replacing word
