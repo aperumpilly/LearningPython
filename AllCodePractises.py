@@ -74,4 +74,5 @@ print(story.endswith("complete"))
 print(story.count("a"))
 print(story.capitalize()) #First character to be UPPER case
 print(story.find("Python")) #find the first occurance of the word
-print(story.replace("Anish","Divya")) #Replace ALL occurance of the replacing word
+print(" 'REM Replace Anish with Divya' : \n",story.replace("Anish","Divya")) #Replace ALL occurance of the replacing word
+print(story[::-1]) #To print the word in reverse order
