@@ -177,6 +177,24 @@ for i in range(countNum):
 print(sumNumber)
 print(sum(sumNumber))
 
+print("Total number of time 4 appears in tuple T is : ", t.count(4))
+
+# Program for Dictionary
+myDict ={
+    "First Objective" : "The learn about Python",
+    "Second Objective" : "To code for Trading",
+    "Third Objective" : ["salary increment","new job"],
+    "Fourth Objective" : {"Happiness":"To always be happy",
+         "Security":"To ensure no issues"}
+}
+print(myDict)
+print(myDict["First Objective"])
+print(myDict["Third Objective"])
+print(myDict["Fourth Objective"])
+print(myDict["Fourth Objective"]["Happiness"])
+# myDict["Third Objective"] = myDict["Third Objective"].append("New Flat")
+# print(myDict)
+
 
 
 
