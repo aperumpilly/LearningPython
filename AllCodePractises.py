@@ -133,3 +133,11 @@ a.remove(2)
 print("Remove 2 ",a)
 #a.count()
 print("Number of times 70 in the list ", str(a.count(70)))
+#Tuples
+#Creating a tuple using ()
+t= (1,2,3,4)
+print(t[0])
+# t1 = ()  is empty Tuple
+#t1 = (1) Wrong way if declaring single value Tuples
+
+t1 = (1,) # --> Right way to declare single calue Tuples
