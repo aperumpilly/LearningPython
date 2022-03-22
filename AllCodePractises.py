@@ -1,4 +1,6 @@
+#from base64 import b16decode
 import datetime
+#from locale import DAY_1
 #from operator import truediv
 from xmlrpc.client import boolean
 a = 'Anish'
@@ -135,9 +137,47 @@ print("Remove 2 ",a)
 print("Number of times 70 in the list ", str(a.count(70)))
 #Tuples
 #Creating a tuple using ()
-t= (1,2,3,4)
+t= (1,2,3,4,4,5,6,7,4)
 print(t[0])
 # t1 = ()  is empty Tuple
 #t1 = (1) Wrong way if declaring single value Tuples
 
-t1 = (1,) # --> Right way to declare single calue Tuples
+#t1 = (1,) # --> Right way #to declare single calue Tuples
+#Methods of Tuple
+#print(t1.count(4))
+print(t.index(4))
+#Program to add 5 fruits input by user
+allFruit = []
+for i in range(5):
+      fruitName=  input("Enter a Fruit name : ")      
+      allFruit.append(fruitName) 
+      i +=1
+print(allFruit)
+
+#Program to sum the values in a list
+
+# totalof =[] 
+# counterValue = int(input("Enter the number of value to be added : "))
+# for i in range(counterValue):
+#     valueNumber= int(input("Enter a value to be added :"))
+#     totalof.append(valueNumber)
+#     i+=1
+# print(sum(totalof))
+# for a in range(totalof)  :
+#     sumValue = totalof[]
+#     totalval += sumValue
+#     a+=1
+
+sumNumber = []
+countNum = int(input("Enter the number of counter :"))
+for i in range(countNum):
+   # numberToAdd = int(input("Enter a number :"))
+    sumNumber.append(int(input("Enter a number :")))
+    i+=1
+print(sumNumber)
+print(sum(sumNumber))
+
+
+
+
+
