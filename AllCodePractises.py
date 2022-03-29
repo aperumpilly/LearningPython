@@ -215,3 +215,28 @@ b.add((1,2,3,4,5)) # Tuple can be added in set as it is immutable
 b.add((1,2,3,4,5,5,5))
 print("Set union of (1,2,3,4,5) and {6,7,2,5} : \n" , b,"\n", b.union({6,7,2,5}))
 print("Set intersection of (1,2,3,4,5) and {6,7,2,5} : \n",b,"\n",b.intersection({6,7,2,5}))
+
+#program to have hindi word meaning in english and user to get it
+hindiToEnglish ={
+    "chalo" : "let go", "thandi": "chill","ao" : "come"
+}
+
+hindiWord = input("Enter the hindi word : ")
+hindiToEnglish.get(hindiWord)
+
+#SET
+s = set()
+print(s)
+type(s)
+#Prg to take fav language of 4 friends in dictionary and print
+favLang={}
+firstFriend = input("Enter your favourite language Raj : \n")
+secondFriend = input("Enter your favourite language Sanju : \n")
+thirdFriend = input("Enter your favourite language Afroz \n")
+fourthFriend = input("Enter your favourite language Roshan : \n")
+favLang["Raj"] =firstFriend
+favLang["Sanju"] =secondFriend
+favLang["Afroz"] = thirdFriend
+favLang["Roshan"] = fourthFriend
+
+print(favLang["Roshan"])
