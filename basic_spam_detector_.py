@@ -1,3 +1,12 @@
+'''
+The words that are checked for spam are : 
+You are a winner , 
+You have been selected,
+Will not believe your eyes,
+Requires initial investment,
+free credit card offers
+'''
+
 word = input("Enter the word to check : \n")
 isSpam = False
 if ("You are a winner" in word):
