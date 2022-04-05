@@ -1,4 +1,4 @@
-#from base64 import b16decode
+""" #from base64 import b16decode
 import datetime
 #from locale import DAY_1
 #from operator import truediv
@@ -240,3 +240,16 @@ favLang["Afroz"] = thirdFriend
 favLang["Roshan"] = fourthFriend
 
 print(favLang["Roshan"])
+#Prg to check if length of name is greater than 10
+
+name = input("Enter the name : \n")
+if (len(name)> 10):
+    print(f"{name} has more than 10 character")
+else:
+    print(f"{name} is not more than 10 character" ) """
+
+#Loops
+i = 0
+while i < 10 :
+    print (i)
+    i+=1
