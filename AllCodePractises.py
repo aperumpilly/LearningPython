@@ -1,5 +1,6 @@
-""" #from base64 import b16decode
+ #from base64 import b16decode
 import datetime
+from time import sleep
 #from locale import DAY_1
 #from operator import truediv
 from xmlrpc.client import boolean
@@ -246,10 +247,13 @@ name = input("Enter the name : \n")
 if (len(name)> 10):
     print(f"{name} has more than 10 character")
 else:
-    print(f"{name} is not more than 10 character" ) """
+    print(f"{name} is not more than 10 character" ) 
 
 #Loops
+#while loop example with sleep time and time printed
 i = 0
 while i < 10 :
-    print (i)
+    print (str(i) + " Number printed at : " + str(datetime.now().strftime("%H:%M:%S")))
+    if i == 5:
+        sleep(10)
     i+=1
