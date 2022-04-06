@@ -1,4 +1,4 @@
- #from base64 import b16decode
+"""  #from base64 import b16decode
 import datetime
 from time import sleep
 #from locale import DAY_1
@@ -257,3 +257,14 @@ while i < 10 :
     if i == 5:
         sleep(10)
     i+=1
+# Looping a List
+
+fruit = ['Apple','Kiwi','Guava','Orange']
+i =0
+while i<len(fruit):
+    print (fruit[i])
+    i+=1
+
+#  FOR Loop using the previous List Fruit
+for fruits in fruit:
+    print(fruits) """
