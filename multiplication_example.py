@@ -54,6 +54,12 @@ for iLoop in range(1,inpNAt+1):
         print("*",end= ' ')
     print("\n")
 
+ #Program to print star in new python technique
+
+for iLoop in range(inpNAt):
+    print("*" * (iLoop))
+    #print("\n")
+
 
 
 
