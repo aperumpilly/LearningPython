@@ -58,8 +58,16 @@ for iLoop in range(1,inpNAt+1):
 
 for iLoop in range(inpNAt):
     print("*" * (iLoop))
-    #print("\n")
-
+   
+ #Program to print star in new python technique
+for iLoop in range(inpNAt):
+    print(" " * (inpNAt-iLoop -1),end=" ")
+    print("*" * (2* iLoop +1),end=" ")
+    print(" " * (inpNAt-iLoop -1))
+for iLoop in range(inpNAt):
+    print(" " * (iLoop -1),end=" ")
+    print("*" * (2* iLoop +1),end=" ")
+    print(" " * (inpNAt-iLoop -1))
 
 
 
