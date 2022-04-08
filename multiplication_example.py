@@ -29,12 +29,14 @@ else:
 
  #Program to print all the natural number till the number asked
 
-inpNAt = int(input("Enter the number to list the Natural numbers ") )
-for iLoop in range(1,inpNAt + 1):
-    if iLoop == inpNAt:
+inpNAt = int(input("Enter the number to list the Natural numbers ")   ) 
+for iLoop in range(1,inpNAt + 1):   
+     if iLoop == inpNAt:
         print(iLoop)
-    else:
+     else:
         print(iLoop, end = ',')
+
+
 
 
 
