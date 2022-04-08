@@ -30,12 +30,29 @@ else:
  #Program to print all the natural number till the number asked
 
 inpNAt = int(input("Enter the number to list the Natural numbers ")   ) 
-for iLoop in range(1,inpNAt + 1):   
+addNumb =0
+for iLoop in range(1,inpNAt + 1):  
+     addNumb += iLoop 
      if iLoop == inpNAt:
-        print(iLoop)
+        print(iLoop, end = ',' )
+        print(addNumb )
      else:
         print(iLoop, end = ',')
+        print(addNumb, end = '|')
 
+ #Program to print all the n factorial
+fact =1
+for iLoop in range(1,inpNAt+1):
+    print(iLoop, " " ,fact, end = ' ')
+    fact = fact*iLoop
+    print(fact)    
+ #Program to print star in old technqie, multiple loop   
+incrNum =0
+for iLoop in range(1,inpNAt+1):
+    incrNum = incrNum + 1
+    for inLoop in range(1,incrNum+1):
+        print("*",end= ' ')
+    print("\n")
 
 
 
