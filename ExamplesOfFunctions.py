@@ -1,4 +1,4 @@
-def percentFunc(marks):
+""" """ def percentFunc(marks):
     p = (sum(marks)/400 *100)
     return p
 def printHello(myName = "Sunny"): #Default parameter function
@@ -19,8 +19,12 @@ def factorial_rec(n):
     return n* factorial_rec(n-1)
 
 print(factorial_rec(int(marks1[1]))) # Take the first value of the List to iterate
-#print(factorial_rec(5))
+#print(factorial_rec(5)) """
+
+ 
 
 
 
 
+
+ """
