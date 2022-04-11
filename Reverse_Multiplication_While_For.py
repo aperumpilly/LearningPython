@@ -8,7 +8,5 @@ for i in range(-10, 0):
 print("*****Using WHILE LOOP***** \n")
 i = 10
 while i > 0:
-
-    #print (n , " X ", i,i*n)
     print(f"{i} X {n} = ",i*n)
     i -= 1
