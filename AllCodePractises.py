@@ -1,4 +1,4 @@
-"""  #from base64 import b16decode
+ #from base64 import b16decode
 import datetime
 from time import sleep
 #from locale import DAY_1
@@ -267,4 +267,23 @@ while i<len(fruit):
 
 #  FOR Loop using the previous List Fruit
 for fruits in fruit:
-    print(fruits) """
+    print(fruits)
+
+#  FOR Loop with ELSE statement
+for fruits in range(10):
+    print (fruits)
+else:
+    print("For Loop completed and now else called")
+
+#For Loop with break statement
+fruit.append("Pineapple")
+fruit.append("Chickoo")
+print(fruit)
+noFruit = input("From which fruit you do not want : \n")
+for myFruit in fruit:
+    print(myFruit)
+    if myFruit == noFruit :
+     break
+else:
+    print("Got all the fruits !!!")
+print()
