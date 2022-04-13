@@ -12,6 +12,8 @@ with open("F:\MyNumberFile.txt") as f:   #Mode by default is Read
 if int(newNumber) > int(existNumber):    
     with open("F:\MyNumberFile.txt",'w') as f:  #Write mode has to be explicitly written
         f.write(str(newNumber))
-        print("Old number "+ str(existNumber) + " is replaced by New number " + str(newNumber))
+        print("Old number *"+ str(existNumber) + 
+        "* is replaced by New number " + str(newNumber))
 else:
-    print("Old number " + str(existNumber) + " is still bigger than New number " +str(newNumber))
+    print("Old number *" + str(existNumber) + 
+    "* is still bigger than New number " +str(newNumber))
