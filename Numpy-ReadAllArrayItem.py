@@ -10,4 +10,7 @@ for i in myarr:
         z=z+1
     y=y+1    
     x=x-1
+#RAVEL function to combine all the array element to 1-dimentional
+myarr = myarr.ravel()
+print(myarr)
 
